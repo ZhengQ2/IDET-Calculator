@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package ldet.calculator;
+package idet.calculator;
 
 import java.util.Scanner;
 
@@ -29,7 +29,7 @@ import java.util.Scanner;
  *
  * @author Zheng Qiu
  */
-public class IDET_Calculator {
+public class Main {
     public static void main(String[] args){
         System.out.println("Please enter the larger number");
         Scanner s = new Scanner(System.in);
