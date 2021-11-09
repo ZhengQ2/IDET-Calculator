@@ -44,7 +44,7 @@ public class Main {
         int q0 = q;
         
         System.out.println("x\t\ty\t\tr\t\tq\n"
-                + x +"\t\t" + y + "\t\t" + r + "\t\t" + q0 +"\n");
+                + x +"\t\t" + y + "\t\t" + r + "\t\t" + q0);
         int x1 = x;
         int y1 = y;
         int r0 = r;
@@ -56,7 +56,7 @@ public class Main {
         q0 = q;
         r0 = r;
         
-        System.out.println(x +"\t\t" + y + "\t\t" + r + "\t\t" + q0 +"\n");
+        System.out.println(x +"\t\t" + y + "\t\t" + r + "\t\t" + q0);
         
         int x2 = 0;
         int y2 = 0;
@@ -73,7 +73,7 @@ public class Main {
             x = (0-q)*x1+x2;
             y = (0-q)*y1+y2;
             r = x*a+y*b;
-            System.out.println(x +"\t\t" + y + "\t\t" + r + "\t\t" + q0 +"\n");
+            System.out.println(x +"\t\t" + y + "\t\t" + r + "\t\t" + q0);
         }
     }
 }
