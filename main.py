@@ -1,4 +1,4 @@
-# 
+#
 # MIT License
 #
 # Copyright (c) 2021 Zheng Qiu
@@ -34,16 +34,17 @@ r = x*a+y*b
 q = 0
 q0 = q
 
-print("x\t\ty\t\tr\t\tq\n" + str(x) +"\t\t" + str(y) + "\t\t" + str(r) + "\t\t" + str(q0))
+print("x\t\ty\t\tr\t\tq\n"\
+      + str(x) +"\t\t" + str(y) + "\t\t" + str(r) + "\t\t" + str(q0))
 x1 = x
 y1 = y
+r0 = r
 
 x = 0
 y = 1
 r = x*a+y*b
 q = 1
 q0 = q
-r0 = r
 
 print(str(x) +"\t\t" + str(y) + "\t\t" + str(r) + "\t\t" + str(q0))
 
