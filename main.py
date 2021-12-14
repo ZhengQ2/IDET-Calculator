@@ -64,3 +64,5 @@ while r != 0:
     y = (0-q) * y1+y2
     r = x * a+y * b
     print(str(x) +"\t\t" + str(y) + "\t\t" + str(r) + "\t\t" + str(q0))
+
+print("Thus, gcd("+str(a)+","+str(b)+") = "+str(r0)+", when x = " +str(x1)+" and y = "+str(y1))
